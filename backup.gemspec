@@ -38,7 +38,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "net-scp", "~> 2.0.0"
   gem.add_dependency "net-sftp", "2.1.2"
   gem.add_dependency "net-ftp", "~> 0.1.3"
-  gem.add_dependency "net-smtp", "~> 0.1.0"
+  gem.add_dependency "net-smtp", "~> 0.1"
   gem.add_dependency "mail", "~> 2.6", ">= 2.6.6"
   gem.add_dependency "pagerduty", "2.0.0"
   gem.add_dependency "twitter", "~> 6.0"
@@ -47,7 +47,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "dogapi", "1.40.0"
   gem.add_dependency "aws-sdk", "~> 2"
   gem.add_dependency "qiniu", "~> 6.5"
-  gem.add_dependency "nokogiri", "~> 1.10", ">= 1.10.9"
+  gem.add_dependency "nokogiri", "~> 1.11.7"
+  gem.add_dependency "activesupport", "~> 5.2.8"
 
   gem.add_development_dependency "rubocop", "0.48.1"
   gem.add_development_dependency "rake"
